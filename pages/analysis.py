@@ -27,7 +27,9 @@ last_pr = df.tail(1)
 
 st.metric(label=last_pr['lift'].iloc[0] + ' (' + str(last_pr['reps'].iloc[0]) + ')', value=str(last_pr['weight'].iloc[0]) + ' lbs')
 
+#Reformat date and sort it so that it displays most recent prs at top
 df['date'] = pd.to_datetime(df['date']).dt.date
+df = df.sort('date', ascending=False)
 
 chart = alt.Chart(df).mark_line(
     point=alt.OverlayMarkDef(color="red")
