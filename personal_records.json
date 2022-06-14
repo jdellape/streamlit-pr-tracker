@@ -1,0 +1,50 @@
+[
+  {
+    "lift": "Power Clean",
+    "weight": "155",
+    "reps": "2",
+    "date": "2021-12-07"
+  },
+  {
+    "lift": "Power Clean",
+    "weight": "165",
+    "reps": "1",
+    "date": "2021-12-13"
+  },
+  {
+    "lift": "Back Squat",
+    "weight": "165",
+    "reps": "4",
+    "date": "2022-01-31"
+  },
+  {
+    "lift": "Push Press",
+    "weight": "105",
+    "reps": "4",
+    "date": "2022-02-02"
+  },
+  {
+    "lift": "Deadlift",
+    "weight": "215",
+    "reps": "4",
+    "date": "2022-02-08"
+  },
+  {
+    "lift": "Front Squat",
+    "weight": "185",
+    "reps": "3",
+    "date": "2022-04-14"
+  },
+  {
+    "lift": "Deadlift",
+    "weight": "235",
+    "reps": "3",
+    "date": "2022-04-15"
+  },
+  {
+    "lift": "Front Squat",
+    "weight": "225",
+    "reps": "2",
+    "date": "2022-06-06"
+  }
+]
