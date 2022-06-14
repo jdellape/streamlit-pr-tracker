@@ -27,7 +27,7 @@ last_pr = df.tail(1)
 
 st.metric(label=last_pr['lift'].iloc[0] + ' (' + str(last_pr['reps'].iloc[0]) + ')', value=str(last_pr['weight'].iloc[0]) + ' lbs')
 
-#st.metric()
+df['date'] = pd.to_datetime(df['date']).dt.date
 
 chart = alt.Chart(df).mark_line(
     point=alt.OverlayMarkDef(color="red")
