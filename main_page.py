@@ -20,3 +20,4 @@ with st.form("add_pr"):
                 file_data.append(pr_dict)
                 jf.seek(0)
                 json.dump(file_data, jf, indent=2)
+            st.balloons()
