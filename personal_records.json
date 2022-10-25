@@ -46,5 +46,11 @@
     "weight": "225",
     "reps": "2",
     "date": "2022-06-06"
+  },
+  {
+    "lift": "Power Snatch",
+    "weight": 125,
+    "reps": 2,
+    "date": "2022-10-24"
   }
 ]
