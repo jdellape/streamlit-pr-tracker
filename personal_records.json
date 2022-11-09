@@ -62,7 +62,13 @@
   {
     "lift": "Power Snatch",
     "weight": 125,
-    "reps": 2,
+    "reps": 1,
     "date": "2022-10-24"
+  },
+  {
+    "lift": "Power Snatch",
+    "weight": 130,
+    "reps": 1,
+    "date": "2022-11-09"
   }
 ]
