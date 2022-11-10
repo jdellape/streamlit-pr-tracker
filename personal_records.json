@@ -41,13 +41,7 @@
     "reps": "3",
     "date": "2022-04-15"
   },
-  {
-    "lift": "Front Squat",
-    "weight": "225",
-    "reps": "2",
-    "date": "2022-06-06"
-  },
-    {
+   {
     "lift": "Deadlift",
     "weight": "265",
     "reps": "1",
@@ -70,5 +64,11 @@
     "weight": 130,
     "reps": 1,
     "date": "2022-11-09"
+  },
+  {
+    "lift": "Front Squat",
+    "weight": "205",
+    "reps": "1",
+    "date": "2022-11-10"
   }
 ]
