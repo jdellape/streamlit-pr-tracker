@@ -30,8 +30,12 @@ st.metric(label=last_pr['lift'].iloc[0] + ' (' + str(last_pr['reps'].iloc[0]) + 
 #Reformat date and sort it so that it displays most recent prs at top
 df['date'] = pd.to_datetime(df['date']).dt.date
 df = df.sort_values(by=['date'], ascending=False)
+st.dataframe(df)
 
-chart = alt.Chart(df).mark_line(
+#Chart a selected lift
+lift_to_chart = st.selectbox('Select Lift to Chart', sorted(set(df['lift'])))
+
+chart = alt.Chart(df[df['lift']==lift_to_chart]).mark_line(
     point=alt.OverlayMarkDef(color="red")
 ).encode(
     x='date',
@@ -40,5 +44,3 @@ chart = alt.Chart(df).mark_line(
 )
 
 st.altair_chart(chart, use_container_width=True)
-
-st.dataframe(df)
