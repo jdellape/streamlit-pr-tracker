@@ -4,7 +4,7 @@ import json
 st.markdown("# New Personal Record! 🏋")
 st.sidebar.markdown("# New Personal Record! 🏋")
 
-LIFT_OPTIONS = ['Power Clean','Back Squat','Push Press','Deadlift','Front Squat', 'Bench Press', 'Power Snatch']
+LIFT_OPTIONS = ['Power Clean','Back Squat','Push Press','Deadlift','Front Squat', 'Bench Press', 'Power Snatch', 'Clean and Jerk']
 
 with st.form("add_pr"):
     lift = st.selectbox('Lift', LIFT_OPTIONS)
