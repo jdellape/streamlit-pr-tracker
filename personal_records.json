@@ -112,5 +112,23 @@
     "weight": 145,
     "reps": 1,
     "date": "2023-07-07"
+  },
+  {
+    "lift": "Clean and Jerk",
+    "weight": "185",
+    "reps": "1",
+    "date": "2023-08-18"
+  },
+  {
+    "lift": "Front Squat",
+    "weight": "235",
+    "reps": "1",
+    "date": "2023-11-14"
+  },
+  {
+    "lift": "Power Clean",
+    "weight": "185",
+    "reps": "1",
+    "date": "2023-11-16"
   }
 ]
