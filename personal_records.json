@@ -130,5 +130,17 @@
     "weight": "185",
     "reps": "1",
     "date": "2023-11-16"
+  },
+  {
+    "lift": "Back Squat",
+    "weight": "265",
+    "reps": "1",
+    "date": "2025-02-19"
+  },
+  {
+    "lift": "Push Jerk",
+    "weight": "195",
+    "reps": "1",
+    "date": "2025-02-26"
   }
 ]
